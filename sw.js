@@ -4,8 +4,8 @@ const urlsToCache = [
     '/agenda/index.html',
     '/agenda/style.css',
     '/agenda/manifest.json',
-    '/agenda/icons/icon-192x192.png',
-    '/agenda/icons/icon-512x512.png'
+    '/agenda/icons/imagem1.png',
+    '/agenda/icons/imagem2.png'
 ];
 
 self.addEventListener('install', event => {
@@ -25,4 +25,5 @@ self.addEventListener('fetch', event => {
             })
     );
 });
+
 
